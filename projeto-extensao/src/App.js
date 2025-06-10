@@ -1,9 +1,5 @@
 import CadastroUsuario from './pages/CadastroUsuario';
 
 function App() {
-  return (
-    <CadastroUsuario />
-  );
+  return <CadastroUsuario />;
 }
-
-export default App;

@@ -1,7 +1,6 @@
 import { useState } from "react";
-
-const Input = (props) => <input {...props} className="border px-3 py-2 rounded w-full" />;
-const Button = (props) => <button {...props} className="bg-blue-600 text-white px-4 py-2 rounded" />;
+import { Input } from "@/components/ui/input"
+import { Button } from "@/components/ui/button"
 
 export default function CadastroUsuario() {
   const [form, setForm] = useState({});
