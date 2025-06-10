@@ -1,7 +1,7 @@
-import CadastroUsuario from "./pages/CadastroUsuario";
+import InicialUsuario from './pages/InicialUsuario';
 
 function App() {
-  return <CadastroUsuario />;
+  return <InicialUsuario />;
 }
 
 export default App;
